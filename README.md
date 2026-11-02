@@ -7,7 +7,7 @@ This project is a personal portfolio website created with HTML, CSS, JavaScript,
 
 ## Live Website
 
-[Open the website](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/)
+[Open the website](https://achaka119.github.io/assignmnet6/)
 
 ### Part 1 — Getting Started with jQuery
 
