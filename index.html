@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+    <main class="profile-card">
+        <h1>Welcome to My Portfolio</h1>
+    
+        <h2 id="greeting">Hello! My name is askar.</h2>
+    
+        <p class="intro">
+            im learning javascript and html and css!
+        </p>
+    
+        <button id="change-text">Change headline</button>
+        <button id="light-theme">Light theme</button>
+        <button id="dark-theme">Dark theme</button>
+    </main>
+
+    <section class="about-section">
+        <h2>About Me</h2>
+        <p>I enjoy learning about technology and creating websites.</p>
+        <p id="status">Currently learning jQuery!</p>
+      
+        <div id="fun-facts">
+          <h3>Fun Facts</h3>
+          <ul>
+            <li>I like learning new things</li>
+            <li>I am interested in web development</li>
+            <li>My goal is to become a good programmer</li>
+          </ul>
+        </div>
+      
+        <button id="hide-button">Hide</button>
+        <button id="show-button">Show</button>
+        <button id="toggle-button">Toggle</button>
+    </section>
+
+    <section class="gallery-section">
+        <h2>My Gallery</h2>
+    
+        <div class="gallery">
+          <img
+            class="gallery-image"
+            src="gosling.jpeg"
+            alt="me">
+      
+          <img
+            class="gallery-image"
+            src="photo.jpg"
+            alt="its cat">
+        </div>
+
+        <button id="fade-in-button">Fade In</button>
+        <button id="fade-out-button">Fade Out</button>
+        <button id="fade-toggle-button">Fade Toggle</button>
+    </section>
+
+    <section class="favorites-section">
+        <h2>My Favorites</h2>
+      
+        <div class="favorite-item">
+          <h3 class="slide-heading">My Favorite Music</h3>
+          <div class="slide-panel">
+            <p>Ghostly Kisses - Stay and The Buhars (ft. jeltoksan) - Теңіз</p>
+          </div>
+        </div>
+      
+        <div class="favorite-item">
+          <h3 class="slide-heading">My Favorite Movie</h3>
+          <div class="slide-panel">
+            <p>La La Land, Drive, Hannibal </p>
+          </div>
+        </div>
+      
+        <div class="favorite-item">
+          <h3 class="slide-heading">My Favorite Subject</h3>
+          <div class="slide-panel">
+            <p>Programming </p>
+          </div>
+        </div>
+      
+        <button id="open-panels">Open All</button>
+        <button id="close-panels">Close All</button>
+      </section>
+
+    <section class="skills-section">
+        <h2>My Technical Skills</h2>
+      
+        <ul id="skill-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+        </ul>
+      
+        <input
+          type="text"
+          id="skill-input"
+          placeholder="Enter a new skill"
+        >
+      
+        <button id="add-skill-button">Add Skill</button>
+        <button id="prepend-skill-button">Prepend Skill</button>
+        <button id="remove-skill-button">Remove Skill</button>
+      
+        <p id="skill-message"></p>
+
+        <h3>My Skill Levels</h3>
+
+    <div class="skill-bar">
+        <p>HTML</p>
+        <div class="skill-track">
+             <div id="html-bar" class="skill-fill"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <p>CSS</p>
+        <div class="skill-track">
+            <div id="css-bar" class="skill-fill"></div>
+        </div>
+    </div>
+
+<div class="skill-bar">
+  <p>JavaScript</p>
+  <div class="skill-track">
+    <div id="javascript-bar" class="skill-fill"></div>
+  </div>
+</div>
+
+<button id="animate-skills-button">Animate My Skills</button>
+        
+    </section>
+
+    <section class="social-section">
+        <h2>My Social Link</h2>
+      
+        <a id="social-link" href="https://github.com/achaka119" target="_blank" rel="noopener noreferrer">
+          Visit my GitHub
+        </a>
+        <br>
+        <button id="change-link-button">Change link destination</button>
+      </section>
+
+      <section class="form-section">
+        <h2>Live Form Preview</h2>
+      
+        <form id="profile-form">
+          <label for="name-input">Name:</label>
+          <input type="text" id="name-input" placeholder="Enter your name">
+      
+          <br><br>
+      
+          <label for="email-input">Email:</label>
+          <input type="email" id="email-input" placeholder="Enter your email">
+        </form>
+      
+        <div class="form-preview">
+          <h3>Your information:</h3>
+          <p>Name: <span id="live-name"></span></p>
+          <p>Email: <span id="live-email"></span></p>
+        </div>
+      </section>
+</body>
+</html>
